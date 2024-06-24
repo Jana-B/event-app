@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 // Load environment variables
 dotenv.config();
 
-const MONGODB_URI = process.env.DB;
+const MONGODB_URI = process.env.MONGODB_URI;
 console.log("MONGODB_URI:", MONGODB_URI); // Debug log to verify URI
 
 if (!MONGODB_URI) {
