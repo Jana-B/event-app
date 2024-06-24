@@ -1,24 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Info
 
-First, run the development server:
+This is an event platform app, following a youtube tutorial by JavaScript Mastery. A few minor changes (personal flair) have been given along the way. The purpose of this app is to deepen my knowledge of NextJS, revise TypeScript, try out more options with Clerk and learn about some new Libraries (ShadCn). This will also be the first app I host on Vercel. Package manager used: Yarn.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Tech
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Clerk,
+MongoDB,
+Mongoose,
+Query-String
+Shadcn,
+UploadThing
+Vercel
 
 ## Learn More
 
