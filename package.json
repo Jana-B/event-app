@@ -2,31 +2,39 @@
   "name": "event-app",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test-connection": "tsx test-connection.ts",
+    "test-db": "npx nodemon --exec ts-node lib/mongodb/database/index.ts"
   },
   "dependencies": {
     "@clerk/nextjs": "^5.1.6",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-separator": "^1.1.0",
     "@radix-ui/react-slot": "^1.1.0",
+    "@types/dotenv": "^8.2.0",
     "@types/mongoose": "^5.11.97",
+    "@types/nodemon": "^1.19.6",
     "@uploadthing/react": "^6.6.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.5",
     "lucide-react": "^0.396.0",
     "mongodb": "^6.7.0",
     "mongoose": "^8.4.3",
     "next": "14.2.4",
+    "nodemon": "^3.1.4",
     "query-string": "^9.0.0",
     "react": "^18",
     "react-dom": "^18",
     "svix": "^1.24.0",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
+    "ts-node": "^10.9.2",
     "uploadthing": "^6.12.0"
   },
   "devDependencies": {
@@ -35,6 +43,7 @@
     "@types/react-dom": "^18",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
+    "tsx": "^4.15.7",
     "typescript": "^5"
   }
 }
